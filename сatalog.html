@@ -8,7 +8,9 @@
     <header class="main-header">
       <div class="container">
         <div class="logo">
+          <a href="index.html">
           <img src="img/index-logo.png">
+          </a>
         </div>
         <nav class="main-navigation">
           <ul>
@@ -36,62 +38,41 @@
    </header>
    <main class="container">
      <h1>Средства для ухода</h1>
-     <nav class="breadcrums">
-       <ul>
-         <li>Главная</li>
-         <li>Магазин</li>
-         <li>Средства для ухода</li>
-       </ul>
-     <nav>
+     <ul class="breadcrumbs">
+       <li>
+         <a href="#">Главная</a>
+       </li>
+       <li>
+         <a href="#">Магазин</a>
+       </li>
+       <li>Средства для ухода</li>
+     </ul>
      <div class="content">
-       <div class="content-left">
+       <form class="content-left">
          <h2>Производители:</h2>
-         <label>
-           <input type="text" name="position-1" value=""
-
-         </label>
-         <br>
-         <label>
-           <input type="text" name="position-2" value=""
-
-         </label>
-         <br>
-         <label>
-           <input type="text" name="position-3" value=""
-
-         </label>
-         <br>
-         <label>
-           <input type="text" name="position-4" value=""
-
-         </label>
-         <br>
-         <label>
-           <input type="text" name="position-5" value=""
-
-         </label>
-         <br>
-         <label>
-           <input type="text" name="position-6" value=""
-
-         </label>
+         <input type="checkbox" name="position-1" id="position-field">
+         <label for="position-field">BAXTER OF CALIFORNIA</label>
+         <input type="checkbox" name="position-2" id="position-field">
+         <label for="position-field">MR NATTY</label>
+         <input type="checkbox" name="position-3" id="position-field">
+         <label for="position-field">SUAVECITO</label>
+         <input type="checkbox" name="position-4" id="position-field">
+         <label for="position-field">MALIN+GOETZ</label>
+         <input type="checkbox" name="position-5" id="position-field">
+         <label for="position-field">MURRAY'S</label>
+         <input type="checkbox" name="position-6" id="position-field">
+         <label for="position-field">AMERICAN CREW</label>
          </h2>Группы товаров:</h2>
-         <label>
-           <input type="text" name="position-1" value=""
-
-         </label>
-         <br>
-         <label>
-           <input type="text" name="position-2" value=""
-
-         </label>
-         <br>
-         <label>
-           <input type="text" name="position-3" value=""
-
-         </label>
-         <a href="#">Показать</a>
-       </div>
+         <input type="radio" name="position-1" id="position-field">
+         <label for="position-field">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label>
+         <input type="radio" name="position-2" id="position-field">
+         <label for="position-field">СРЕДСТВА ДЛЯ УХОДА</label>
+         <input type="radio" name="position-3" id="position-field">
+         <label for="position-field">АКСЕССУАРЫ</label>
+         <a href="#">
+         <input type="submit" value="Показать">
+         </a>
+       </form>
        <div class="content-right">
          <artticle>
          </article>
