@@ -1,0 +1,21 @@
+body {
+
+}
+
+.main-header {
+  font-size: 30px;
+  font-family: "PTSans";
+  color: #000000;
+  font-weight: Regular;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: "PTSans";
+  color: #000000;
+  font-weight: Regular;
+  line-height: 100%;
+  text-transform: uppercase;
+}
