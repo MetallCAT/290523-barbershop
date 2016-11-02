@@ -20,7 +20,13 @@ h2 {
   line-height: 30px;
   font-weight: bold;
 }
-  
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .container {
   width: 940px;
   margin: 0 auto;
@@ -38,6 +44,10 @@ h2 {
   width: 620px;
 }
 
+.navigation {
+  display: inline-block;
+}
+
 .user-block {
   float: right;
   width: 140px;
@@ -47,6 +57,7 @@ h2 {
   width: 630px;
   min-height: 80px;
   margin-bottom: 55px;
+  display: inline-block;
 }
 
 .item-content {
@@ -58,9 +69,34 @@ h2 {
   width: 460px;
 }
 
+.gallery-content {
+  margin: 0;
+}
+
 .item-content-right {
   float: right;
   width: 400px;
+}
+
+.content {
+  min-height: 600px;
+}
+
+.content-left {
+  float: left;
+  width: 220px;
+}
+
+.content-right {
+  float: right;
+  width: 700px;
+}
+
+.paginator {
+  margin-top: 45px;
+  min-height: 43px;
+  width: 220px;
+  display: inline-block;
 }
 
 .main-footer {
